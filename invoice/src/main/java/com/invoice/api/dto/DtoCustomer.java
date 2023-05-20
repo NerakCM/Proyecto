@@ -1,5 +1,8 @@
 package com.invoice.api.dto;
 
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
 public class DtoCustomer {
 
 	private String rfc;
