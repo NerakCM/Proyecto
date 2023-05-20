@@ -85,7 +85,7 @@ public class SvcProductImp implements SvcProduct {
 			throw new ApiException(HttpStatus.BAD_REQUEST, "product name already exist");
 		}
 		repo.createProduct(in.getGtin(), in.getProduct(), in.getDescription(), in.getPrice(), in.getStock(), in.getCategory_id());		
-		return new ApiResponse("category created");
+		return new ApiResponse("product created");
 	}
 	
 

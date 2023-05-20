@@ -62,7 +62,7 @@ public class CtrlProduct {
 	}
 	
 	
-	@PutMapping("/{gtin}/{stock}")
+	@PutMapping("/{gtin}/stock/{stock}")
 	public ResponseEntity<ApiResponse> updateProductStock(@PathVariable("gtin") String gtin, @PathVariable("stock") Integer stock){
 		return new ResponseEntity<>(svc.updateProductStock(gtin, stock),HttpStatus.OK);
 	}
