@@ -1,5 +1,5 @@
 # Proyecto
-Proyecto de la materia Desarrollo Web Backend
+Proyecto de la materia Desarrollo Web Backend (2023-2)
 
 # NOTAS: 
 • La carpeta "config-data" se encuentra en el siguiente repositorio: https://github.com/DemianGT/config-data.git
